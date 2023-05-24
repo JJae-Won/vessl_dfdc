@@ -1,6 +1,5 @@
 albumentations==1.0.0
 anykeystore==0.2
-apex==0.1
 appdirs==1.4.4
 certifi==2023.5.7
 charset-normalizer==3.1.0
