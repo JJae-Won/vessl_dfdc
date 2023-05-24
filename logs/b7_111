@@ -1,0 +1,972 @@
+Initializing a new experiment...
+Connected to experiment #16.
+For more info: https://vessl.ai/jwjang/jw-pretest/experiments/16
+Selected optimization level O1:  Insert automatic casts around Pytorch functions and Tensor methods.
+
+Defaults for this optimization level are:
+enabled                : True
+opt_level              : O1
+cast_model_type        : None
+patch_torch_functions  : True
+keep_batchnorm_fp32    : None
+master_weights         : None
+loss_scale             : dynamic
+Processing user overrides (additional kwargs that are not None)...
+After processing overrides, optimization options are:
+enabled                : True
+opt_level              : O1
+cast_model_type        : None
+patch_torch_functions  : True
+keep_batchnorm_fp32    : None
+master_weights         : None
+loss_scale             : dynamic
+real 4 fakes 5 mode val
+           video       file  label    original  frame  fold
+17    chtapglbcj   70_0.png      0  chtapglbcj     70     0
+18    alaijyygdv  280_0.png      1  cppdvdejkc    280     0
+19    czfunozvwp    0_0.png      1  caifxvsozs      0     0
+20    cxrfacemmq    0_0.png      1  dlpoieqvfb      0     0
+21    eqjscdagiv    0_0.png      1  dbnygxtwek      0     0
+...          ...        ...    ...         ...    ...   ...
+3029  avnqydkqjj  290_0.png      1  efwfxwwlbw    290     0
+3030  brwrlczjvi  260_1.png      0  brwrlczjvi    260     0
+3031  bejhvclboh  260_0.png      0  bejhvclboh    260     0
+3032  etohcvnzbj  290_0.png      1  bdnaqemxmr    290     0
+3033  caifxvsozs  280_1.png      0  caifxvsozs    280     0
+
+[3017 rows x 6 columns]
+real 1333 fakes 1333 mode train
+training epoch 0
+Gradient overflow.  Skipping step, loss scaler 0 reducing loss scale to 32768.0
+Gradient overflow.  Skipping step, loss scaler 0 reducing loss scale to 16384.0
+Gradient overflow.  Skipping step, loss scaler 0 reducing loss scale to 8192.0
+train/loss 0.6593216830814207
+train/fake_loss 0.6612122198482892
+train/real_loss 0.6574311469857758
+Test phase
+fake_loss 0.5461569299887943
+real_loss 0.5390765426055869
+Epoch 0 improved from 100 to 0.5426167362971905
+Epoch: 0 bce: 0.5426167362971905, bce_best: 0.5426167362971905
+           video       file  label    original  frame  fold
+17    chtapglbcj   70_0.png      0  chtapglbcj     70     0
+18    alaijyygdv  280_0.png      1  cppdvdejkc    280     0
+19    czfunozvwp    0_0.png      1  caifxvsozs      0     0
+20    cxrfacemmq    0_0.png      1  dlpoieqvfb      0     0
+21    eqjscdagiv    0_0.png      1  dbnygxtwek      0     0
+...          ...        ...    ...         ...    ...   ...
+3029  avnqydkqjj  290_0.png      1  efwfxwwlbw    290     0
+3030  brwrlczjvi  260_1.png      0  brwrlczjvi    260     0
+3031  bejhvclboh  260_0.png      0  bejhvclboh    260     0
+3032  etohcvnzbj  290_0.png      1  bdnaqemxmr    290     0
+3033  caifxvsozs  280_1.png      0  caifxvsozs    280     0
+
+[3017 rows x 6 columns]
+real 1333 fakes 1333 mode train
+training epoch 1
+train/loss 0.5099632464147903
+train/fake_loss 0.5102152625719706
+train/real_loss 0.5097112296535088
+Test phase
+fake_loss 0.3185115518295834
+real_loss 0.311779817294337
+Epoch 1 improved from 0.5426167362971905 to 0.31514568456196024
+Epoch: 1 bce: 0.31514568456196024, bce_best: 0.31514568456196024
+           video       file  label    original  frame  fold
+17    chtapglbcj   70_0.png      0  chtapglbcj     70     0
+18    alaijyygdv  280_0.png      1  cppdvdejkc    280     0
+19    czfunozvwp    0_0.png      1  caifxvsozs      0     0
+20    cxrfacemmq    0_0.png      1  dlpoieqvfb      0     0
+21    eqjscdagiv    0_0.png      1  dbnygxtwek      0     0
+...          ...        ...    ...         ...    ...   ...
+3029  avnqydkqjj  290_0.png      1  efwfxwwlbw    290     0
+3030  brwrlczjvi  260_1.png      0  brwrlczjvi    260     0
+3031  bejhvclboh  260_0.png      0  bejhvclboh    260     0
+3032  etohcvnzbj  290_0.png      1  bdnaqemxmr    290     0
+3033  caifxvsozs  280_1.png      0  caifxvsozs    280     0
+
+[3017 rows x 6 columns]
+real 1333 fakes 1333 mode train
+training epoch 2
+Gradient overflow.  Skipping step, loss scaler 0 reducing loss scale to 4096.0
+train/loss 0.40039751900208964
+train/fake_loss 0.41063801054884724
+train/real_loss 0.3901570268344503
+Test phase
+fake_loss 0.2120348086611109
+real_loss 0.22967054396215858
+Epoch 2 improved from 0.31514568456196024 to 0.22085267631163474
+Epoch: 2 bce: 0.22085267631163474, bce_best: 0.22085267631163474
+           video       file  label    original  frame  fold
+17    chtapglbcj   70_0.png      0  chtapglbcj     70     0
+18    alaijyygdv  280_0.png      1  cppdvdejkc    280     0
+19    czfunozvwp    0_0.png      1  caifxvsozs      0     0
+20    cxrfacemmq    0_0.png      1  dlpoieqvfb      0     0
+21    eqjscdagiv    0_0.png      1  dbnygxtwek      0     0
+...          ...        ...    ...         ...    ...   ...
+3029  avnqydkqjj  290_0.png      1  efwfxwwlbw    290     0
+3030  brwrlczjvi  260_1.png      0  brwrlczjvi    260     0
+3031  bejhvclboh  260_0.png      0  bejhvclboh    260     0
+3032  etohcvnzbj  290_0.png      1  bdnaqemxmr    290     0
+3033  caifxvsozs  280_1.png      0  caifxvsozs    280     0
+
+[3017 rows x 6 columns]
+real 1333 fakes 1333 mode train
+training epoch 3
+train/loss 0.3291130711970566
+train/fake_loss 0.3350595681013556
+train/real_loss 0.32316657278250466
+Test phase
+fake_loss 0.1932976668060858
+real_loss 0.13991666303365435
+Epoch 3 improved from 0.22085267631163474 to 0.16660716491987007
+Epoch: 3 bce: 0.16660716491987007, bce_best: 0.16660716491987007
+           video       file  label    original  frame  fold
+17    chtapglbcj   70_0.png      0  chtapglbcj     70     0
+18    alaijyygdv  280_0.png      1  cppdvdejkc    280     0
+19    czfunozvwp    0_0.png      1  caifxvsozs      0     0
+20    cxrfacemmq    0_0.png      1  dlpoieqvfb      0     0
+21    eqjscdagiv    0_0.png      1  dbnygxtwek      0     0
+...          ...        ...    ...         ...    ...   ...
+3029  avnqydkqjj  290_0.png      1  efwfxwwlbw    290     0
+3030  brwrlczjvi  260_1.png      0  brwrlczjvi    260     0
+3031  bejhvclboh  260_0.png      0  bejhvclboh    260     0
+3032  etohcvnzbj  290_0.png      1  bdnaqemxmr    290     0
+3033  caifxvsozs  280_1.png      0  caifxvsozs    280     0
+
+[3017 rows x 6 columns]
+real 1333 fakes 1333 mode train
+training epoch 4
+train/loss 0.3012850556757536
+train/fake_loss 0.30751797570301603
+train/real_loss 0.29505213346701487
+Test phase
+fake_loss 0.12567388594722811
+real_loss 0.14852649045334276
+Epoch 4 improved from 0.16660716491987007 to 0.13710018820028544
+Epoch: 4 bce: 0.13710018820028544, bce_best: 0.13710018820028544
+           video       file  label    original  frame  fold
+17    chtapglbcj   70_0.png      0  chtapglbcj     70     0
+18    alaijyygdv  280_0.png      1  cppdvdejkc    280     0
+19    czfunozvwp    0_0.png      1  caifxvsozs      0     0
+20    cxrfacemmq    0_0.png      1  dlpoieqvfb      0     0
+21    eqjscdagiv    0_0.png      1  dbnygxtwek      0     0
+...          ...        ...    ...         ...    ...   ...
+3029  avnqydkqjj  290_0.png      1  efwfxwwlbw    290     0
+3030  brwrlczjvi  260_1.png      0  brwrlczjvi    260     0
+3031  bejhvclboh  260_0.png      0  bejhvclboh    260     0
+3032  etohcvnzbj  290_0.png      1  bdnaqemxmr    290     0
+3033  caifxvsozs  280_1.png      0  caifxvsozs    280     0
+
+[3017 rows x 6 columns]
+real 1333 fakes 1333 mode train
+training epoch 5
+train/loss 0.2762968052547794
+train/fake_loss 0.2852337039705064
+train/real_loss 0.2673599068243224
+Test phase
+fake_loss 0.12714244018495807
+real_loss 0.12125666125095981
+Epoch 5 improved from 0.13710018820028544 to 0.12419955071795893
+Epoch: 5 bce: 0.12419955071795893, bce_best: 0.12419955071795893
+           video       file  label    original  frame  fold
+17    chtapglbcj   70_0.png      0  chtapglbcj     70     0
+18    alaijyygdv  280_0.png      1  cppdvdejkc    280     0
+19    czfunozvwp    0_0.png      1  caifxvsozs      0     0
+20    cxrfacemmq    0_0.png      1  dlpoieqvfb      0     0
+21    eqjscdagiv    0_0.png      1  dbnygxtwek      0     0
+...          ...        ...    ...         ...    ...   ...
+3029  avnqydkqjj  290_0.png      1  efwfxwwlbw    290     0
+3030  brwrlczjvi  260_1.png      0  brwrlczjvi    260     0
+3031  bejhvclboh  260_0.png      0  bejhvclboh    260     0
+3032  etohcvnzbj  290_0.png      1  bdnaqemxmr    290     0
+3033  caifxvsozs  280_1.png      0  caifxvsozs    280     0
+
+[3017 rows x 6 columns]
+real 1333 fakes 1333 mode train
+training epoch 6
+train/loss 0.2546876097718875
+train/fake_loss 0.26410351915133967
+train/real_loss 0.24527169978833413
+Test phase
+fake_loss 0.11006831472638369
+real_loss 0.11194970396235054
+Epoch 6 improved from 0.12419955071795893 to 0.11100900934436711
+Epoch: 6 bce: 0.11100900934436711, bce_best: 0.11100900934436711
+           video       file  label    original  frame  fold
+17    chtapglbcj   70_0.png      0  chtapglbcj     70     0
+18    alaijyygdv  280_0.png      1  cppdvdejkc    280     0
+19    czfunozvwp    0_0.png      1  caifxvsozs      0     0
+20    cxrfacemmq    0_0.png      1  dlpoieqvfb      0     0
+21    eqjscdagiv    0_0.png      1  dbnygxtwek      0     0
+...          ...        ...    ...         ...    ...   ...
+3029  avnqydkqjj  290_0.png      1  efwfxwwlbw    290     0
+3030  brwrlczjvi  260_1.png      0  brwrlczjvi    260     0
+3031  bejhvclboh  260_0.png      0  bejhvclboh    260     0
+3032  etohcvnzbj  290_0.png      1  bdnaqemxmr    290     0
+3033  caifxvsozs  280_1.png      0  caifxvsozs    280     0
+
+[3017 rows x 6 columns]
+real 1333 fakes 1333 mode train
+training epoch 7
+train/loss 0.2485550727930155
+train/fake_loss 0.2542706102065675
+train/real_loss 0.2428395344733118
+Test phase
+fake_loss 0.09957751136741967
+real_loss 0.10716417247603256
+Epoch 7 improved from 0.11100900934436711 to 0.10337084192172612
+Epoch: 7 bce: 0.10337084192172612, bce_best: 0.10337084192172612
+           video       file  label    original  frame  fold
+17    chtapglbcj   70_0.png      0  chtapglbcj     70     0
+18    alaijyygdv  280_0.png      1  cppdvdejkc    280     0
+19    czfunozvwp    0_0.png      1  caifxvsozs      0     0
+20    cxrfacemmq    0_0.png      1  dlpoieqvfb      0     0
+21    eqjscdagiv    0_0.png      1  dbnygxtwek      0     0
+...          ...        ...    ...         ...    ...   ...
+3029  avnqydkqjj  290_0.png      1  efwfxwwlbw    290     0
+3030  brwrlczjvi  260_1.png      0  brwrlczjvi    260     0
+3031  bejhvclboh  260_0.png      0  bejhvclboh    260     0
+3032  etohcvnzbj  290_0.png      1  bdnaqemxmr    290     0
+3033  caifxvsozs  280_1.png      0  caifxvsozs    280     0
+
+[3017 rows x 6 columns]
+real 1333 fakes 1333 mode train
+training epoch 8
+train/loss 0.23532929031497185
+train/fake_loss 0.24567198016689168
+train/real_loss 0.22498660042949087
+Test phase
+fake_loss 0.10267105638737058
+real_loss 0.07518676563558398
+Epoch 8 improved from 0.10337084192172612 to 0.08892891101147728
+Epoch: 8 bce: 0.08892891101147728, bce_best: 0.08892891101147728
+           video       file  label    original  frame  fold
+17    chtapglbcj   70_0.png      0  chtapglbcj     70     0
+18    alaijyygdv  280_0.png      1  cppdvdejkc    280     0
+19    czfunozvwp    0_0.png      1  caifxvsozs      0     0
+20    cxrfacemmq    0_0.png      1  dlpoieqvfb      0     0
+21    eqjscdagiv    0_0.png      1  dbnygxtwek      0     0
+...          ...        ...    ...         ...    ...   ...
+3029  avnqydkqjj  290_0.png      1  efwfxwwlbw    290     0
+3030  brwrlczjvi  260_1.png      0  brwrlczjvi    260     0
+3031  bejhvclboh  260_0.png      0  bejhvclboh    260     0
+3032  etohcvnzbj  290_0.png      1  bdnaqemxmr    290     0
+3033  caifxvsozs  280_1.png      0  caifxvsozs    280     0
+
+[3017 rows x 6 columns]
+real 1333 fakes 1333 mode train
+training epoch 9
+train/loss 0.21444932065971262
+train/fake_loss 0.2330516439166155
+train/real_loss 0.19584699564084812
+Test phase
+fake_loss 0.10356655418186408
+real_loss 0.06517173633083102
+Epoch 9 improved from 0.08892891101147728 to 0.08436914525634756
+Epoch: 9 bce: 0.08436914525634756, bce_best: 0.08436914525634756
+           video       file  label    original  frame  fold
+17    chtapglbcj   70_0.png      0  chtapglbcj     70     0
+18    alaijyygdv  280_0.png      1  cppdvdejkc    280     0
+19    czfunozvwp    0_0.png      1  caifxvsozs      0     0
+20    cxrfacemmq    0_0.png      1  dlpoieqvfb      0     0
+21    eqjscdagiv    0_0.png      1  dbnygxtwek      0     0
+...          ...        ...    ...         ...    ...   ...
+3029  avnqydkqjj  290_0.png      1  efwfxwwlbw    290     0
+3030  brwrlczjvi  260_1.png      0  brwrlczjvi    260     0
+3031  bejhvclboh  260_0.png      0  bejhvclboh    260     0
+3032  etohcvnzbj  290_0.png      1  bdnaqemxmr    290     0
+3033  caifxvsozs  280_1.png      0  caifxvsozs    280     0
+
+[3017 rows x 6 columns]
+real 1333 fakes 1333 mode train
+training epoch 10
+train/loss 0.22395659449535446
+train/fake_loss 0.22018036296641505
+train/real_loss 0.22773282672907855
+Test phase
+fake_loss 0.07143508578514518
+real_loss 0.09495364597704523
+Epoch 10 improved from 0.08436914525634756 to 0.0831943658810952
+Epoch: 10 bce: 0.0831943658810952, bce_best: 0.0831943658810952
+           video       file  label    original  frame  fold
+17    chtapglbcj   70_0.png      0  chtapglbcj     70     0
+18    alaijyygdv  280_0.png      1  cppdvdejkc    280     0
+19    czfunozvwp    0_0.png      1  caifxvsozs      0     0
+20    cxrfacemmq    0_0.png      1  dlpoieqvfb      0     0
+21    eqjscdagiv    0_0.png      1  dbnygxtwek      0     0
+...          ...        ...    ...         ...    ...   ...
+3029  avnqydkqjj  290_0.png      1  efwfxwwlbw    290     0
+3030  brwrlczjvi  260_1.png      0  brwrlczjvi    260     0
+3031  bejhvclboh  260_0.png      0  bejhvclboh    260     0
+3032  etohcvnzbj  290_0.png      1  bdnaqemxmr    290     0
+3033  caifxvsozs  280_1.png      0  caifxvsozs    280     0
+
+[3017 rows x 6 columns]
+real 1333 fakes 1333 mode train
+training epoch 11
+train/loss 0.20936281532720402
+train/fake_loss 0.21199192749420265
+train/real_loss 0.20673370373074537
+Test phase
+fake_loss 0.10020472038651605
+real_loss 0.046465562628212186
+Epoch 11 improved from 0.0831943658810952 to 0.07333514150736412
+Epoch: 11 bce: 0.07333514150736412, bce_best: 0.07333514150736412
+           video       file  label    original  frame  fold
+17    chtapglbcj   70_0.png      0  chtapglbcj     70     0
+18    alaijyygdv  280_0.png      1  cppdvdejkc    280     0
+19    czfunozvwp    0_0.png      1  caifxvsozs      0     0
+20    cxrfacemmq    0_0.png      1  dlpoieqvfb      0     0
+21    eqjscdagiv    0_0.png      1  dbnygxtwek      0     0
+...          ...        ...    ...         ...    ...   ...
+3029  avnqydkqjj  290_0.png      1  efwfxwwlbw    290     0
+3030  brwrlczjvi  260_1.png      0  brwrlczjvi    260     0
+3031  bejhvclboh  260_0.png      0  bejhvclboh    260     0
+3032  etohcvnzbj  290_0.png      1  bdnaqemxmr    290     0
+3033  caifxvsozs  280_1.png      0  caifxvsozs    280     0
+
+[3017 rows x 6 columns]
+real 1333 fakes 1333 mode train
+training epoch 12
+train/loss 0.2078003684679667
+train/fake_loss 0.21389385643373202
+train/real_loss 0.20170687712930344
+Test phase
+fake_loss 0.06916966761168672
+real_loss 0.06770172596845364
+Epoch 12 improved from 0.07333514150736412 to 0.06843569679007018
+Epoch: 12 bce: 0.06843569679007018, bce_best: 0.06843569679007018
+           video       file  label    original  frame  fold
+17    chtapglbcj   70_0.png      0  chtapglbcj     70     0
+18    alaijyygdv  280_0.png      1  cppdvdejkc    280     0
+19    czfunozvwp    0_0.png      1  caifxvsozs      0     0
+20    cxrfacemmq    0_0.png      1  dlpoieqvfb      0     0
+21    eqjscdagiv    0_0.png      1  dbnygxtwek      0     0
+...          ...        ...    ...         ...    ...   ...
+3029  avnqydkqjj  290_0.png      1  efwfxwwlbw    290     0
+3030  brwrlczjvi  260_1.png      0  brwrlczjvi    260     0
+3031  bejhvclboh  260_0.png      0  bejhvclboh    260     0
+3032  etohcvnzbj  290_0.png      1  bdnaqemxmr    290     0
+3033  caifxvsozs  280_1.png      0  caifxvsozs    280     0
+
+[3017 rows x 6 columns]
+real 1333 fakes 1333 mode train
+training epoch 13
+train/loss 0.20239538545007105
+train/fake_loss 0.2182341889218167
+train/real_loss 0.18655658125676014
+Test phase
+fake_loss 0.06952658141541053
+real_loss 0.07085436276150286
+Epoch: 13 bce: 0.07019047208845669, bce_best: 0.06843569679007018
+           video       file  label    original  frame  fold
+17    chtapglbcj   70_0.png      0  chtapglbcj     70     0
+18    alaijyygdv  280_0.png      1  cppdvdejkc    280     0
+19    czfunozvwp    0_0.png      1  caifxvsozs      0     0
+20    cxrfacemmq    0_0.png      1  dlpoieqvfb      0     0
+21    eqjscdagiv    0_0.png      1  dbnygxtwek      0     0
+...          ...        ...    ...         ...    ...   ...
+3029  avnqydkqjj  290_0.png      1  efwfxwwlbw    290     0
+3030  brwrlczjvi  260_1.png      0  brwrlczjvi    260     0
+3031  bejhvclboh  260_0.png      0  bejhvclboh    260     0
+3032  etohcvnzbj  290_0.png      1  bdnaqemxmr    290     0
+3033  caifxvsozs  280_1.png      0  caifxvsozs    280     0
+
+[3017 rows x 6 columns]
+real 1333 fakes 1333 mode train
+training epoch 14
+train/loss 0.191735114533085
+train/fake_loss 0.19321711807771846
+train/real_loss 0.19025311061927863
+Test phase
+fake_loss 0.06555707677925657
+real_loss 0.06917312580251152
+Epoch 14 improved from 0.06843569679007018 to 0.06736510129088405
+Epoch: 14 bce: 0.06736510129088405, bce_best: 0.06736510129088405
+           video       file  label    original  frame  fold
+17    chtapglbcj   70_0.png      0  chtapglbcj     70     0
+18    alaijyygdv  280_0.png      1  cppdvdejkc    280     0
+19    czfunozvwp    0_0.png      1  caifxvsozs      0     0
+20    cxrfacemmq    0_0.png      1  dlpoieqvfb      0     0
+21    eqjscdagiv    0_0.png      1  dbnygxtwek      0     0
+...          ...        ...    ...         ...    ...   ...
+3029  avnqydkqjj  290_0.png      1  efwfxwwlbw    290     0
+3030  brwrlczjvi  260_1.png      0  brwrlczjvi    260     0
+3031  bejhvclboh  260_0.png      0  bejhvclboh    260     0
+3032  etohcvnzbj  290_0.png      1  bdnaqemxmr    290     0
+3033  caifxvsozs  280_1.png      0  caifxvsozs    280     0
+
+[3017 rows x 6 columns]
+real 1333 fakes 1333 mode train
+training epoch 15
+train/loss 0.18931468240581117
+train/fake_loss 0.20616193667792523
+train/real_loss 0.17246742756315717
+Test phase
+fake_loss 0.06602161270997235
+real_loss 0.0559915637093961
+Epoch 15 improved from 0.06736510129088405 to 0.06100658820968423
+Epoch: 15 bce: 0.06100658820968423, bce_best: 0.06100658820968423
+           video       file  label    original  frame  fold
+17    chtapglbcj   70_0.png      0  chtapglbcj     70     0
+18    alaijyygdv  280_0.png      1  cppdvdejkc    280     0
+19    czfunozvwp    0_0.png      1  caifxvsozs      0     0
+20    cxrfacemmq    0_0.png      1  dlpoieqvfb      0     0
+21    eqjscdagiv    0_0.png      1  dbnygxtwek      0     0
+...          ...        ...    ...         ...    ...   ...
+3029  avnqydkqjj  290_0.png      1  efwfxwwlbw    290     0
+3030  brwrlczjvi  260_1.png      0  brwrlczjvi    260     0
+3031  bejhvclboh  260_0.png      0  bejhvclboh    260     0
+3032  etohcvnzbj  290_0.png      1  bdnaqemxmr    290     0
+3033  caifxvsozs  280_1.png      0  caifxvsozs    280     0
+
+[3017 rows x 6 columns]
+real 1333 fakes 1333 mode train
+training epoch 16
+train/loss 0.17924382270792047
+train/fake_loss 0.19810943375970866
+train/real_loss 0.1603782119749634
+Test phase
+fake_loss 0.06397633249861925
+real_loss 0.055884171348230725
+Epoch 16 improved from 0.06100658820968423 to 0.05993025192342499
+Epoch: 16 bce: 0.05993025192342499, bce_best: 0.05993025192342499
+           video       file  label    original  frame  fold
+17    chtapglbcj   70_0.png      0  chtapglbcj     70     0
+18    alaijyygdv  280_0.png      1  cppdvdejkc    280     0
+19    czfunozvwp    0_0.png      1  caifxvsozs      0     0
+20    cxrfacemmq    0_0.png      1  dlpoieqvfb      0     0
+21    eqjscdagiv    0_0.png      1  dbnygxtwek      0     0
+...          ...        ...    ...         ...    ...   ...
+3029  avnqydkqjj  290_0.png      1  efwfxwwlbw    290     0
+3030  brwrlczjvi  260_1.png      0  brwrlczjvi    260     0
+3031  bejhvclboh  260_0.png      0  bejhvclboh    260     0
+3032  etohcvnzbj  290_0.png      1  bdnaqemxmr    290     0
+3033  caifxvsozs  280_1.png      0  caifxvsozs    280     0
+
+[3017 rows x 6 columns]
+real 1333 fakes 1333 mode train
+training epoch 17
+train/loss 0.1884223830189791
+train/fake_loss 0.19639122507929266
+train/real_loss 0.1804535407405179
+Test phase
+fake_loss 0.07103935172368939
+real_loss 0.04100234981832057
+Epoch 17 improved from 0.05993025192342499 to 0.05602085077100498
+Epoch: 17 bce: 0.05602085077100498, bce_best: 0.05602085077100498
+           video       file  label    original  frame  fold
+17    chtapglbcj   70_0.png      0  chtapglbcj     70     0
+18    alaijyygdv  280_0.png      1  cppdvdejkc    280     0
+19    czfunozvwp    0_0.png      1  caifxvsozs      0     0
+20    cxrfacemmq    0_0.png      1  dlpoieqvfb      0     0
+21    eqjscdagiv    0_0.png      1  dbnygxtwek      0     0
+...          ...        ...    ...         ...    ...   ...
+3029  avnqydkqjj  290_0.png      1  efwfxwwlbw    290     0
+3030  brwrlczjvi  260_1.png      0  brwrlczjvi    260     0
+3031  bejhvclboh  260_0.png      0  bejhvclboh    260     0
+3032  etohcvnzbj  290_0.png      1  bdnaqemxmr    290     0
+3033  caifxvsozs  280_1.png      0  caifxvsozs    280     0
+
+[3017 rows x 6 columns]
+real 1333 fakes 1333 mode train
+training epoch 18
+train/loss 0.16915117583430564
+train/fake_loss 0.1721122165520986
+train/real_loss 0.16619013400899396
+Test phase
+fake_loss 0.0595455229716842
+real_loss 0.052059835114166585
+Epoch 18 improved from 0.05602085077100498 to 0.05580267904292539
+Epoch: 18 bce: 0.05580267904292539, bce_best: 0.05580267904292539
+           video       file  label    original  frame  fold
+17    chtapglbcj   70_0.png      0  chtapglbcj     70     0
+18    alaijyygdv  280_0.png      1  cppdvdejkc    280     0
+19    czfunozvwp    0_0.png      1  caifxvsozs      0     0
+20    cxrfacemmq    0_0.png      1  dlpoieqvfb      0     0
+21    eqjscdagiv    0_0.png      1  dbnygxtwek      0     0
+...          ...        ...    ...         ...    ...   ...
+3029  avnqydkqjj  290_0.png      1  efwfxwwlbw    290     0
+3030  brwrlczjvi  260_1.png      0  brwrlczjvi    260     0
+3031  bejhvclboh  260_0.png      0  bejhvclboh    260     0
+3032  etohcvnzbj  290_0.png      1  bdnaqemxmr    290     0
+3033  caifxvsozs  280_1.png      0  caifxvsozs    280     0
+
+[3017 rows x 6 columns]
+real 1333 fakes 1333 mode train
+training epoch 19
+train/loss 0.17406223331754272
+train/fake_loss 0.18248107029242558
+train/real_loss 0.16564339763476504
+Test phase
+fake_loss 0.047489080003097116
+real_loss 0.06137684020561706
+Epoch 19 improved from 0.05580267904292539 to 0.05443296010435709
+Epoch: 19 bce: 0.05443296010435709, bce_best: 0.05443296010435709
+           video       file  label    original  frame  fold
+17    chtapglbcj   70_0.png      0  chtapglbcj     70     0
+18    alaijyygdv  280_0.png      1  cppdvdejkc    280     0
+19    czfunozvwp    0_0.png      1  caifxvsozs      0     0
+20    cxrfacemmq    0_0.png      1  dlpoieqvfb      0     0
+21    eqjscdagiv    0_0.png      1  dbnygxtwek      0     0
+...          ...        ...    ...         ...    ...   ...
+3029  avnqydkqjj  290_0.png      1  efwfxwwlbw    290     0
+3030  brwrlczjvi  260_1.png      0  brwrlczjvi    260     0
+3031  bejhvclboh  260_0.png      0  bejhvclboh    260     0
+3032  etohcvnzbj  290_0.png      1  bdnaqemxmr    290     0
+3033  caifxvsozs  280_1.png      0  caifxvsozs    280     0
+
+[3017 rows x 6 columns]
+real 1333 fakes 1333 mode train
+training epoch 20
+Gradient overflow.  Skipping step, loss scaler 0 reducing loss scale to 8192.0
+train/loss 0.1795663286738836
+train/fake_loss 0.18773532259437414
+train/real_loss 0.1713973348037348
+Test phase
+fake_loss 0.044255723731915095
+real_loss 0.06576795991230631
+Epoch: 20 bce: 0.055011841822110705, bce_best: 0.05443296010435709
+           video       file  label    original  frame  fold
+17    chtapglbcj   70_0.png      0  chtapglbcj     70     0
+18    alaijyygdv  280_0.png      1  cppdvdejkc    280     0
+19    czfunozvwp    0_0.png      1  caifxvsozs      0     0
+20    cxrfacemmq    0_0.png      1  dlpoieqvfb      0     0
+21    eqjscdagiv    0_0.png      1  dbnygxtwek      0     0
+...          ...        ...    ...         ...    ...   ...
+3029  avnqydkqjj  290_0.png      1  efwfxwwlbw    290     0
+3030  brwrlczjvi  260_1.png      0  brwrlczjvi    260     0
+3031  bejhvclboh  260_0.png      0  bejhvclboh    260     0
+3032  etohcvnzbj  290_0.png      1  bdnaqemxmr    290     0
+3033  caifxvsozs  280_1.png      0  caifxvsozs    280     0
+
+[3017 rows x 6 columns]
+real 1333 fakes 1333 mode train
+training epoch 21
+train/loss 0.16927133356262972
+train/fake_loss 0.17581964663422858
+train/real_loss 0.1627230190143392
+Test phase
+fake_loss 0.04808818148287352
+real_loss 0.06276101571817609
+Epoch: 21 bce: 0.0554245986005248, bce_best: 0.05443296010435709
+           video       file  label    original  frame  fold
+17    chtapglbcj   70_0.png      0  chtapglbcj     70     0
+18    alaijyygdv  280_0.png      1  cppdvdejkc    280     0
+19    czfunozvwp    0_0.png      1  caifxvsozs      0     0
+20    cxrfacemmq    0_0.png      1  dlpoieqvfb      0     0
+21    eqjscdagiv    0_0.png      1  dbnygxtwek      0     0
+...          ...        ...    ...         ...    ...   ...
+3029  avnqydkqjj  290_0.png      1  efwfxwwlbw    290     0
+3030  brwrlczjvi  260_1.png      0  brwrlczjvi    260     0
+3031  bejhvclboh  260_0.png      0  bejhvclboh    260     0
+3032  etohcvnzbj  290_0.png      1  bdnaqemxmr    290     0
+3033  caifxvsozs  280_1.png      0  caifxvsozs    280     0
+
+[3017 rows x 6 columns]
+real 1333 fakes 1333 mode train
+training epoch 22
+train/loss 0.16978093936435273
+train/fake_loss 0.17856051022740635
+train/real_loss 0.1610013684509574
+Test phase
+fake_loss 0.04811503795060648
+real_loss 0.04916736535114331
+Epoch 22 improved from 0.05443296010435709 to 0.0486412016508749
+Epoch: 22 bce: 0.0486412016508749, bce_best: 0.0486412016508749
+           video       file  label    original  frame  fold
+17    chtapglbcj   70_0.png      0  chtapglbcj     70     0
+18    alaijyygdv  280_0.png      1  cppdvdejkc    280     0
+19    czfunozvwp    0_0.png      1  caifxvsozs      0     0
+20    cxrfacemmq    0_0.png      1  dlpoieqvfb      0     0
+21    eqjscdagiv    0_0.png      1  dbnygxtwek      0     0
+...          ...        ...    ...         ...    ...   ...
+3029  avnqydkqjj  290_0.png      1  efwfxwwlbw    290     0
+3030  brwrlczjvi  260_1.png      0  brwrlczjvi    260     0
+3031  bejhvclboh  260_0.png      0  bejhvclboh    260     0
+3032  etohcvnzbj  290_0.png      1  bdnaqemxmr    290     0
+3033  caifxvsozs  280_1.png      0  caifxvsozs    280     0
+
+[3017 rows x 6 columns]
+real 1333 fakes 1333 mode train
+training epoch 23
+train/loss 0.15679899322892632
+train/fake_loss 0.16309692467319536
+train/real_loss 0.1505010614826067
+Test phase
+fake_loss 0.051260748390746916
+real_loss 0.04353627398757037
+Epoch 23 improved from 0.0486412016508749 to 0.047398511189158644
+Epoch: 23 bce: 0.047398511189158644, bce_best: 0.047398511189158644
+           video       file  label    original  frame  fold
+17    chtapglbcj   70_0.png      0  chtapglbcj     70     0
+18    alaijyygdv  280_0.png      1  cppdvdejkc    280     0
+19    czfunozvwp    0_0.png      1  caifxvsozs      0     0
+20    cxrfacemmq    0_0.png      1  dlpoieqvfb      0     0
+21    eqjscdagiv    0_0.png      1  dbnygxtwek      0     0
+...          ...        ...    ...         ...    ...   ...
+3029  avnqydkqjj  290_0.png      1  efwfxwwlbw    290     0
+3030  brwrlczjvi  260_1.png      0  brwrlczjvi    260     0
+3031  bejhvclboh  260_0.png      0  bejhvclboh    260     0
+3032  etohcvnzbj  290_0.png      1  bdnaqemxmr    290     0
+3033  caifxvsozs  280_1.png      0  caifxvsozs    280     0
+
+[3017 rows x 6 columns]
+real 1333 fakes 1333 mode train
+training epoch 24
+train/loss 0.164022590948252
+train/fake_loss 0.1858864825990823
+train/real_loss 0.14215869805565826
+Test phase
+fake_loss 0.049460751811306825
+real_loss 0.055500382868823625
+Epoch: 24 bce: 0.052480567340065225, bce_best: 0.047398511189158644
+           video       file  label    original  frame  fold
+17    chtapglbcj   70_0.png      0  chtapglbcj     70     0
+18    alaijyygdv  280_0.png      1  cppdvdejkc    280     0
+19    czfunozvwp    0_0.png      1  caifxvsozs      0     0
+20    cxrfacemmq    0_0.png      1  dlpoieqvfb      0     0
+21    eqjscdagiv    0_0.png      1  dbnygxtwek      0     0
+...          ...        ...    ...         ...    ...   ...
+3029  avnqydkqjj  290_0.png      1  efwfxwwlbw    290     0
+3030  brwrlczjvi  260_1.png      0  brwrlczjvi    260     0
+3031  bejhvclboh  260_0.png      0  bejhvclboh    260     0
+3032  etohcvnzbj  290_0.png      1  bdnaqemxmr    290     0
+3033  caifxvsozs  280_1.png      0  caifxvsozs    280     0
+
+[3017 rows x 6 columns]
+real 1333 fakes 1333 mode train
+training epoch 25
+train/loss 0.15730509213968977
+train/fake_loss 0.16419268214890548
+train/real_loss 0.15041750251642755
+Test phase
+fake_loss 0.042534702877169824
+real_loss 0.06354921374601018
+Epoch: 25 bce: 0.053041958311590004, bce_best: 0.047398511189158644
+           video       file  label    original  frame  fold
+17    chtapglbcj   70_0.png      0  chtapglbcj     70     0
+18    alaijyygdv  280_0.png      1  cppdvdejkc    280     0
+19    czfunozvwp    0_0.png      1  caifxvsozs      0     0
+20    cxrfacemmq    0_0.png      1  dlpoieqvfb      0     0
+21    eqjscdagiv    0_0.png      1  dbnygxtwek      0     0
+...          ...        ...    ...         ...    ...   ...
+3029  avnqydkqjj  290_0.png      1  efwfxwwlbw    290     0
+3030  brwrlczjvi  260_1.png      0  brwrlczjvi    260     0
+3031  bejhvclboh  260_0.png      0  bejhvclboh    260     0
+3032  etohcvnzbj  290_0.png      1  bdnaqemxmr    290     0
+3033  caifxvsozs  280_1.png      0  caifxvsozs    280     0
+
+[3017 rows x 6 columns]
+real 1333 fakes 1333 mode train
+training epoch 26
+train/loss 0.15155346773833306
+train/fake_loss 0.16120887106401963
+train/real_loss 0.1418980647482582
+Test phase
+fake_loss 0.044942517466169216
+real_loss 0.03915908754253061
+Epoch 26 improved from 0.047398511189158644 to 0.042050802504349914
+Epoch: 26 bce: 0.042050802504349914, bce_best: 0.042050802504349914
+           video       file  label    original  frame  fold
+17    chtapglbcj   70_0.png      0  chtapglbcj     70     0
+18    alaijyygdv  280_0.png      1  cppdvdejkc    280     0
+19    czfunozvwp    0_0.png      1  caifxvsozs      0     0
+20    cxrfacemmq    0_0.png      1  dlpoieqvfb      0     0
+21    eqjscdagiv    0_0.png      1  dbnygxtwek      0     0
+...          ...        ...    ...         ...    ...   ...
+3029  avnqydkqjj  290_0.png      1  efwfxwwlbw    290     0
+3030  brwrlczjvi  260_1.png      0  brwrlczjvi    260     0
+3031  bejhvclboh  260_0.png      0  bejhvclboh    260     0
+3032  etohcvnzbj  290_0.png      1  bdnaqemxmr    290     0
+3033  caifxvsozs  280_1.png      0  caifxvsozs    280     0
+
+[3017 rows x 6 columns]
+real 1333 fakes 1333 mode train
+training epoch 27
+train/loss 0.15295192100913138
+train/fake_loss 0.16242645942681544
+train/real_loss 0.1434773823397385
+Test phase
+fake_loss 0.06159180445011384
+real_loss 0.035725530594755105
+Epoch: 27 bce: 0.04865866752243447, bce_best: 0.042050802504349914
+           video       file  label    original  frame  fold
+17    chtapglbcj   70_0.png      0  chtapglbcj     70     0
+18    alaijyygdv  280_0.png      1  cppdvdejkc    280     0
+19    czfunozvwp    0_0.png      1  caifxvsozs      0     0
+20    cxrfacemmq    0_0.png      1  dlpoieqvfb      0     0
+21    eqjscdagiv    0_0.png      1  dbnygxtwek      0     0
+...          ...        ...    ...         ...    ...   ...
+3029  avnqydkqjj  290_0.png      1  efwfxwwlbw    290     0
+3030  brwrlczjvi  260_1.png      0  brwrlczjvi    260     0
+3031  bejhvclboh  260_0.png      0  bejhvclboh    260     0
+3032  etohcvnzbj  290_0.png      1  bdnaqemxmr    290     0
+3033  caifxvsozs  280_1.png      0  caifxvsozs    280     0
+
+[3017 rows x 6 columns]
+real 1333 fakes 1333 mode train
+training epoch 28
+train/loss 0.15512921934662102
+train/fake_loss 0.16238392795528378
+train/real_loss 0.14787451021776005
+Test phase
+fake_loss 0.059360383093013384
+real_loss 0.03588940236241965
+Epoch: 28 bce: 0.047624892727716514, bce_best: 0.042050802504349914
+           video       file  label    original  frame  fold
+17    chtapglbcj   70_0.png      0  chtapglbcj     70     0
+18    alaijyygdv  280_0.png      1  cppdvdejkc    280     0
+19    czfunozvwp    0_0.png      1  caifxvsozs      0     0
+20    cxrfacemmq    0_0.png      1  dlpoieqvfb      0     0
+21    eqjscdagiv    0_0.png      1  dbnygxtwek      0     0
+...          ...        ...    ...         ...    ...   ...
+3029  avnqydkqjj  290_0.png      1  efwfxwwlbw    290     0
+3030  brwrlczjvi  260_1.png      0  brwrlczjvi    260     0
+3031  bejhvclboh  260_0.png      0  bejhvclboh    260     0
+3032  etohcvnzbj  290_0.png      1  bdnaqemxmr    290     0
+3033  caifxvsozs  280_1.png      0  caifxvsozs    280     0
+
+[3017 rows x 6 columns]
+real 1333 fakes 1333 mode train
+training epoch 29
+train/loss 0.15452728091596482
+train/fake_loss 0.15285354436517837
+train/real_loss 0.15620101583903437
+Test phase
+fake_loss 0.04634226859011714
+real_loss 0.038607417220758854
+Epoch: 29 bce: 0.042474842905438, bce_best: 0.042050802504349914
+           video       file  label    original  frame  fold
+17    chtapglbcj   70_0.png      0  chtapglbcj     70     0
+18    alaijyygdv  280_0.png      1  cppdvdejkc    280     0
+19    czfunozvwp    0_0.png      1  caifxvsozs      0     0
+20    cxrfacemmq    0_0.png      1  dlpoieqvfb      0     0
+21    eqjscdagiv    0_0.png      1  dbnygxtwek      0     0
+...          ...        ...    ...         ...    ...   ...
+3029  avnqydkqjj  290_0.png      1  efwfxwwlbw    290     0
+3030  brwrlczjvi  260_1.png      0  brwrlczjvi    260     0
+3031  bejhvclboh  260_0.png      0  bejhvclboh    260     0
+3032  etohcvnzbj  290_0.png      1  bdnaqemxmr    290     0
+3033  caifxvsozs  280_1.png      0  caifxvsozs    280     0
+
+[3017 rows x 6 columns]
+real 1333 fakes 1333 mode train
+training epoch 30
+train/loss 0.15091198204538306
+train/fake_loss 0.15676610356381349
+train/real_loss 0.1450578612652985
+Test phase
+fake_loss 0.04347229296752013
+real_loss 0.04538092415148608
+Epoch: 30 bce: 0.0444266085595031, bce_best: 0.042050802504349914
+           video       file  label    original  frame  fold
+17    chtapglbcj   70_0.png      0  chtapglbcj     70     0
+18    alaijyygdv  280_0.png      1  cppdvdejkc    280     0
+19    czfunozvwp    0_0.png      1  caifxvsozs      0     0
+20    cxrfacemmq    0_0.png      1  dlpoieqvfb      0     0
+21    eqjscdagiv    0_0.png      1  dbnygxtwek      0     0
+...          ...        ...    ...         ...    ...   ...
+3029  avnqydkqjj  290_0.png      1  efwfxwwlbw    290     0
+3030  brwrlczjvi  260_1.png      0  brwrlczjvi    260     0
+3031  bejhvclboh  260_0.png      0  bejhvclboh    260     0
+3032  etohcvnzbj  290_0.png      1  bdnaqemxmr    290     0
+3033  caifxvsozs  280_1.png      0  caifxvsozs    280     0
+
+[3017 rows x 6 columns]
+real 1333 fakes 1333 mode train
+training epoch 31
+Gradient overflow.  Skipping step, loss scaler 0 reducing loss scale to 8192.0
+train/loss 0.1409198334356686
+train/fake_loss 0.15005611487337062
+train/real_loss 0.1317835519979666
+Test phase
+fake_loss 0.047463262167024727
+real_loss 0.037927492731832504
+Epoch: 31 bce: 0.04269537744942861, bce_best: 0.042050802504349914
+           video       file  label    original  frame  fold
+17    chtapglbcj   70_0.png      0  chtapglbcj     70     0
+18    alaijyygdv  280_0.png      1  cppdvdejkc    280     0
+19    czfunozvwp    0_0.png      1  caifxvsozs      0     0
+20    cxrfacemmq    0_0.png      1  dlpoieqvfb      0     0
+21    eqjscdagiv    0_0.png      1  dbnygxtwek      0     0
+...          ...        ...    ...         ...    ...   ...
+3029  avnqydkqjj  290_0.png      1  efwfxwwlbw    290     0
+3030  brwrlczjvi  260_1.png      0  brwrlczjvi    260     0
+3031  bejhvclboh  260_0.png      0  bejhvclboh    260     0
+3032  etohcvnzbj  290_0.png      1  bdnaqemxmr    290     0
+3033  caifxvsozs  280_1.png      0  caifxvsozs    280     0
+
+[3017 rows x 6 columns]
+real 1333 fakes 1333 mode train
+training epoch 32
+train/loss 0.14896104956331016
+train/fake_loss 0.1441105987943776
+train/real_loss 0.15381149994628923
+Test phase
+fake_loss 0.03754940663474832
+real_loss 0.048647406912937716
+Epoch: 32 bce: 0.043098406773843016, bce_best: 0.042050802504349914
+           video       file  label    original  frame  fold
+17    chtapglbcj   70_0.png      0  chtapglbcj     70     0
+18    alaijyygdv  280_0.png      1  cppdvdejkc    280     0
+19    czfunozvwp    0_0.png      1  caifxvsozs      0     0
+20    cxrfacemmq    0_0.png      1  dlpoieqvfb      0     0
+21    eqjscdagiv    0_0.png      1  dbnygxtwek      0     0
+...          ...        ...    ...         ...    ...   ...
+3029  avnqydkqjj  290_0.png      1  efwfxwwlbw    290     0
+3030  brwrlczjvi  260_1.png      0  brwrlczjvi    260     0
+3031  bejhvclboh  260_0.png      0  bejhvclboh    260     0
+3032  etohcvnzbj  290_0.png      1  bdnaqemxmr    290     0
+3033  caifxvsozs  280_1.png      0  caifxvsozs    280     0
+
+[3017 rows x 6 columns]
+real 1333 fakes 1333 mode train
+training epoch 33
+train/loss 0.14592200472346833
+train/fake_loss 0.15442791545914636
+train/real_loss 0.13741609370252034
+Test phase
+fake_loss 0.04625232098754084
+real_loss 0.03953998942928254
+Epoch: 33 bce: 0.04289615520841169, bce_best: 0.042050802504349914
+           video       file  label    original  frame  fold
+17    chtapglbcj   70_0.png      0  chtapglbcj     70     0
+18    alaijyygdv  280_0.png      1  cppdvdejkc    280     0
+19    czfunozvwp    0_0.png      1  caifxvsozs      0     0
+20    cxrfacemmq    0_0.png      1  dlpoieqvfb      0     0
+21    eqjscdagiv    0_0.png      1  dbnygxtwek      0     0
+...          ...        ...    ...         ...    ...   ...
+3029  avnqydkqjj  290_0.png      1  efwfxwwlbw    290     0
+3030  brwrlczjvi  260_1.png      0  brwrlczjvi    260     0
+3031  bejhvclboh  260_0.png      0  bejhvclboh    260     0
+3032  etohcvnzbj  290_0.png      1  bdnaqemxmr    290     0
+3033  caifxvsozs  280_1.png      0  caifxvsozs    280     0
+
+[3017 rows x 6 columns]
+real 1333 fakes 1333 mode train
+training epoch 34
+train/loss 0.14323841052146646
+train/fake_loss 0.1489616890379169
+train/real_loss 0.13751513235740834
+Test phase
+fake_loss 0.05265823901545707
+real_loss 0.03484238067694563
+Epoch: 34 bce: 0.043750309846201346, bce_best: 0.042050802504349914
+           video       file  label    original  frame  fold
+17    chtapglbcj   70_0.png      0  chtapglbcj     70     0
+18    alaijyygdv  280_0.png      1  cppdvdejkc    280     0
+19    czfunozvwp    0_0.png      1  caifxvsozs      0     0
+20    cxrfacemmq    0_0.png      1  dlpoieqvfb      0     0
+21    eqjscdagiv    0_0.png      1  dbnygxtwek      0     0
+...          ...        ...    ...         ...    ...   ...
+3029  avnqydkqjj  290_0.png      1  efwfxwwlbw    290     0
+3030  brwrlczjvi  260_1.png      0  brwrlczjvi    260     0
+3031  bejhvclboh  260_0.png      0  bejhvclboh    260     0
+3032  etohcvnzbj  290_0.png      1  bdnaqemxmr    290     0
+3033  caifxvsozs  280_1.png      0  caifxvsozs    280     0
+
+[3017 rows x 6 columns]
+real 1333 fakes 1333 mode train
+training epoch 35
+train/loss 0.14670737988844113
+train/fake_loss 0.1500212691455811
+train/real_loss 0.14339349172203927
+Test phase
+fake_loss 0.04755305101776178
+real_loss 0.0250214569358145
+Epoch 35 improved from 0.042050802504349914 to 0.03628725397678814
+Epoch: 35 bce: 0.03628725397678814, bce_best: 0.03628725397678814
+           video       file  label    original  frame  fold
+17    chtapglbcj   70_0.png      0  chtapglbcj     70     0
+18    alaijyygdv  280_0.png      1  cppdvdejkc    280     0
+19    czfunozvwp    0_0.png      1  caifxvsozs      0     0
+20    cxrfacemmq    0_0.png      1  dlpoieqvfb      0     0
+21    eqjscdagiv    0_0.png      1  dbnygxtwek      0     0
+...          ...        ...    ...         ...    ...   ...
+3029  avnqydkqjj  290_0.png      1  efwfxwwlbw    290     0
+3030  brwrlczjvi  260_1.png      0  brwrlczjvi    260     0
+3031  bejhvclboh  260_0.png      0  bejhvclboh    260     0
+3032  etohcvnzbj  290_0.png      1  bdnaqemxmr    290     0
+3033  caifxvsozs  280_1.png      0  caifxvsozs    280     0
+
+[3017 rows x 6 columns]
+real 1333 fakes 1333 mode train
+training epoch 36
+train/loss 0.14665726884394079
+train/fake_loss 0.16188652254641056
+train/real_loss 0.1314280137486823
+Test phase
+fake_loss 0.04833565316374168
+real_loss 0.034469208418590344
+Epoch: 36 bce: 0.04140243079116601, bce_best: 0.03628725397678814
+           video       file  label    original  frame  fold
+17    chtapglbcj   70_0.png      0  chtapglbcj     70     0
+18    alaijyygdv  280_0.png      1  cppdvdejkc    280     0
+19    czfunozvwp    0_0.png      1  caifxvsozs      0     0
+20    cxrfacemmq    0_0.png      1  dlpoieqvfb      0     0
+21    eqjscdagiv    0_0.png      1  dbnygxtwek      0     0
+...          ...        ...    ...         ...    ...   ...
+3029  avnqydkqjj  290_0.png      1  efwfxwwlbw    290     0
+3030  brwrlczjvi  260_1.png      0  brwrlczjvi    260     0
+3031  bejhvclboh  260_0.png      0  bejhvclboh    260     0
+3032  etohcvnzbj  290_0.png      1  bdnaqemxmr    290     0
+3033  caifxvsozs  280_1.png      0  caifxvsozs    280     0
+
+[3017 rows x 6 columns]
+real 1333 fakes 1333 mode train
+training epoch 37
+train/loss 0.1378070089026346
+train/fake_loss 0.14105551599248037
+train/real_loss 0.13455850100732064
+Test phase
+fake_loss 0.034444805623253076
+real_loss 0.05085815845338369
+Epoch: 37 bce: 0.04265148203831838, bce_best: 0.03628725397678814
+           video       file  label    original  frame  fold
+17    chtapglbcj   70_0.png      0  chtapglbcj     70     0
+18    alaijyygdv  280_0.png      1  cppdvdejkc    280     0
+19    czfunozvwp    0_0.png      1  caifxvsozs      0     0
+20    cxrfacemmq    0_0.png      1  dlpoieqvfb      0     0
+21    eqjscdagiv    0_0.png      1  dbnygxtwek      0     0
+...          ...        ...    ...         ...    ...   ...
+3029  avnqydkqjj  290_0.png      1  efwfxwwlbw    290     0
+3030  brwrlczjvi  260_1.png      0  brwrlczjvi    260     0
+3031  bejhvclboh  260_0.png      0  bejhvclboh    260     0
+3032  etohcvnzbj  290_0.png      1  bdnaqemxmr    290     0
+3033  caifxvsozs  280_1.png      0  caifxvsozs    280     0
+
+[3017 rows x 6 columns]
+real 1333 fakes 1333 mode train
+training epoch 38
+train/loss 0.14104933672592984
+train/fake_loss 0.14573600144872256
+train/real_loss 0.13636267195279533
+Test phase
+fake_loss 0.04483297628849208
+real_loss 0.03643612930864565
+Epoch: 38 bce: 0.04063455279856887, bce_best: 0.03628725397678814
+           video       file  label    original  frame  fold
+17    chtapglbcj   70_0.png      0  chtapglbcj     70     0
+18    alaijyygdv  280_0.png      1  cppdvdejkc    280     0
+19    czfunozvwp    0_0.png      1  caifxvsozs      0     0
+20    cxrfacemmq    0_0.png      1  dlpoieqvfb      0     0
+21    eqjscdagiv    0_0.png      1  dbnygxtwek      0     0
+...          ...        ...    ...         ...    ...   ...
+3029  avnqydkqjj  290_0.png      1  efwfxwwlbw    290     0
+3030  brwrlczjvi  260_1.png      0  brwrlczjvi    260     0
+3031  bejhvclboh  260_0.png      0  bejhvclboh    260     0
+3032  etohcvnzbj  290_0.png      1  bdnaqemxmr    290     0
+3033  caifxvsozs  280_1.png      0  caifxvsozs    280     0
+
+[3017 rows x 6 columns]
+real 1333 fakes 1333 mode train
+training epoch 39
+train/loss 0.13650995284855902
+train/fake_loss 0.14454726124736103
+train/real_loss 0.12847264418126764
+Test phase
+fake_loss 0.05368297219558526
+real_loss 0.031676000211657555
+Epoch: 39 bce: 0.04267948620362141, bce_best: 0.03628725397678814
