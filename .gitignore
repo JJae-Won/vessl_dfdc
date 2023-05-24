@@ -3,5 +3,5 @@ apex
 dataset
 wandb
 weights
-logs
 output
+logs
